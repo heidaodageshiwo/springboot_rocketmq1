@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="rocketmq1" />
-        <module name="20201216_rocketmq_lizi3" />
-        <module name="rocketmq2" />
-      </profile>
-    </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="rocketmq1" options="-parameters" />
-      <module name="rocketmq2" options="-parameters" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="20201216_rocketmq_lizi3" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
